@@ -3,9 +3,9 @@ This repository provides the recipe for the paper [A Crowdsourced Open-Source Ka
 
 ## Setup and Requirements 
 
-Our code builds upon [ESPNet](https://github.com/espnet/espnet), and requires prior installation of the framework. Please follow the [installation guide](https://espnet.github.io/espnet/installation.html) and put the ksc folder inside `espnet/egs/` directory.
+Our code builds upon [ESPnet](https://github.com/espnet/espnet), and requires prior installation of the framework. Please follow the [installation guide](https://espnet.github.io/espnet/installation.html) and put the ksc folder inside `espnet/egs/` directory.
 
-After succesfull installation of ESPNet & Kaldi, go to `ksc/asr1` and create links to the dependencies:
+After succesfull installation of ESPnet & Kaldi, go to `ksc/asr1` and create links to the dependencies:
 ```
 ln -s ../../../tools/kaldi/egs/wsj/s5/steps steps
 ln -s ../../../tools/kaldi/egs/wsj/s5/utils utils
