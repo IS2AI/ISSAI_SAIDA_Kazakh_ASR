@@ -27,6 +27,10 @@ dataset_dir=/path-to/ISSAI_KSC_335RS
 
 To train the models, run the script `./run.sh` inside` ksc/<exp-name>/` folder.
 
+## Pre-trained model
+
+You can find the link to the latest pre-trained Transformer model [here](https://issai.nu.edu.kz/wp-content/uploads/2020/10/model.tar.gz). Untar it in `ksc/<exp-name>/`. 
+
 ## Inference
 To decode a single audio, specify paths to the following files inside `recog_wav.sh` script:
 ```
