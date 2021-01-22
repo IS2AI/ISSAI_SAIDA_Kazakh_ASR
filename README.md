@@ -1,5 +1,5 @@
 # ISSAI_SAIDA_Kazakh_ASR
-This repository provides the recipe for the paper [A Crowdsourced Open-Source Kazakh Speech Corpus](thelink). 
+This repository provides the recipe for the paper [A Crowdsourced Open-Source Kazakh Speech Corpus and Initial Speech Recognition Baseline](https://arxiv.org/abs/2009.10334). 
 
 ## Setup and Requirements 
 
