@@ -5,12 +5,12 @@ This repository provides the recipe for the paper [A Crowdsourced Open-Source Ka
 
 Our code builds upon [ESPnet](https://github.com/espnet/espnet), and requires prior installation of the framework. Please follow the [installation guide](https://espnet.github.io/espnet/installation.html) and put the ksc folder inside `espnet/egs/` directory.
 
-After succesfull installation of ESPnet & Kaldi, go to `ksc/asr1` and create links to the dependencies:
+After succesfull installation of ESPnet & Kaldi, go to `ISSAI_SAIDA_Kazakh_ASR/asr1` folder and create links to the dependencies:
 ```
 ln -s ../../../tools/kaldi/egs/wsj/s5/steps steps
 ln -s ../../../tools/kaldi/egs/wsj/s5/utils utils
 ```
-The directory for running the experiments (`ksc/<exp-name`) can be created by running the following script:
+The directory for running the experiments (`ISSAI_SAIDA_Kazakh_ASR/<exp-name`) can be created by running the following script:
 
 ```
 ./setup_experiment.sh <exp-name>
@@ -18,14 +18,14 @@ The directory for running the experiments (`ksc/<exp-name`) can be created by ru
 
 ## Downloading the dataset
  
-Download ISSAI_KSC_335RS dataset and untar in the directory of your choice. Specify the path to the dataset inside `ksc/<exp-name>/conf/data_path.conf` file:
+Download ISSAI_KSC_335RS dataset and untar in the directory of your choice. Specify the path to the dataset inside `ISSAI_SAIDA_Kazakh_ASR/<exp-name>/conf/data_path.conf` file:
 ```
-dataset_dir=/path-to/ISSAI_KSC_335RS
+dataset_dir=/path-to/ISSAI_KSC_335RS_v1.1
 ```
 
 ## Training
 
-To train the models, run the script `./run.sh` inside` ksc/<exp-name>/` folder.
+To train the models, run the script `./run.sh` inside `ISSAI_SAIDA_Kazakh_ASR/<exp-name>/` folder.
 
 ## Pre-trained model
 
